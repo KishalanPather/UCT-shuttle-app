@@ -1,0 +1,112 @@
+
+body{
+    background-color: white;
+}
+
+
+div.enterLocation{
+    background-color: #222B5C;
+    height: 100vh;
+    width: 100%;
+}
+
+div.borderLocation{ /* light purple rectangle*/
+    background-color: #47518B;
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    min-width: 330px;
+    width: 45%;
+    height: 40%;
+    
+}
+
+div.borderLocation h1{
+    position: relative;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 325%;
+}
+
+
+
+form.EnterLocation{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    margin-top: -2em
+            
+    
+}
+
+
+input.location { /*type field */
+    position: relative;
+    width: 80%;
+    height: 4em;
+    background-color: #47518B;
+    border: #747DB0 4px solid;
+    color: white;
+    
+}
+
+input.location::placeholder{
+    color: white;
+    opacity: .6;
+    font-size: 1.5em;
+    padding-left: 20px;
+}
+
+
+input.submitBtn{
+    background-color: #9D50FF;
+    color: white;
+    width: 150px;
+    height: 55px;
+    margin-top: 50px;
+    font-size: 18px;
+    border: 0px;
+}
+
+input.submitBtn:hover{
+    background-color: #8342d8;
+}
+
+div.result h1{
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+div.result{
+    position: sticky;
+    display: none;
+    background-color: #47518B;
+    color: white;
+    padding-top: 30px;
+    border: 2px solid #47518B;
+}
+
+ul{
+    margin-top: 40px;
+    margin-left:25px;
+
+}
+
+li{
+    margin-bottom: 50px;
+    width: fit-content;
+
+}
+
+li h2{
+    font-weight: 500;
+}
+
+li p{
+    margin-left: 30px;
+} 
+
